@@ -1,0 +1,34 @@
+{
+  "name": "leaflet.layergroup.tooltip-collison",
+  "version": "0.0.1",
+  "author": "Kyle Landell <kyle.landell@gmail.com>",
+  "description": "A Leaflet LayerGroup plugin for decluttering layers with tooltips using basic collision detection",
+  "main": "index-dist.js",
+  "keywords": [
+    "leaflet",
+    "collision",
+    "tooltip"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/klandell/Leaflet.LayerGroup.Tooltip-Collision.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "prepare": "babel index.js --out-file index-dist.js"
+  },
+  "peerDependencies": {
+    "leaflet": "^1.2.x",
+    "rbush": "^2.0.x"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.36",
+    "@babel/core": "^7.0.0-beta.36",
+    "@babel/preset-env": "^7.0.0-beta.36"
+  },
+  "files": [
+    "index-dev.js",
+    "index.js",
+    "LICENSE"
+  ]
+}
